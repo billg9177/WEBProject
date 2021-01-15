@@ -94,6 +94,10 @@ def midsouth():
         return
 
 
+def brownells():
+    return
+
+
 def main(vendor):
     """
 
@@ -105,7 +109,7 @@ def main(vendor):
     elif "MIDWAY" in vendor:
         yes_no = midway()
     else:
-        print('Please use either Midsouth or Midway')
+        print('Sorry', vendor, 'is not supported.')
         sys.exit()
 
     if yes_no:
